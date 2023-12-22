@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon-16x16.png"
+    />
+
+    <title>JabTV Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav>
+        <a href="#" class="logo">
+          <h1>
+            <span class="jab">Astro</span><span class="tv">TV</span
+            >
+          </h1>
+        </a>
+        <ul>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" id="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#stars" class="nav-link" id="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#stakeholders" class="nav-link" id="nav-link"
+                >Astrophotographers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+            </li>
+    </ul>
+
+
+
+    
+    <!-- Dark/light theme switcher -->
+
+    <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+           <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+           <ion-icon name="moon-outline" class="moon"></ion-icon>
+           <div class="switcher"></div>
+        </label>
+    </div>
+
+  </nav>
+
+
+
+
+
+
+    <!-- Bars -->
+    <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <!-- Hero section -->
+
+    <section class="hero">
+        <div class="intro-text">
+          <h1>
+            <span class="hear"> Lorem ipsum dolor </span> <br />
+            <span class="connecting"> sit amet</span>
+          </h1>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit </br> esse cillum dolore eu fugiat nulla pariatur. </p> </br>
+          <a class="btn red" href="#">Learn More</a>
+          <a class="btn blue" href="#">Subscribe</a>
+        </div>
+        <div class="i-frame">
+          
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xc1v6BjHm8U?si=zUc05plqsmdcViMS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          <div class="stand-1"></div>
+          <div class="stand-2"></div>
+        </div>
+      </section>
+
+    <!-- About section -->
+
+    <section class="about" id="about">
+        <h3>Lorem ipsum </h3>
+        <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            veit in voluptate.
+        </p>
+  
+        <h3>Lorem ipsum dolor
+            sit amet!</h3>
+        <p>
+            Esse cillum dolore eu fugiat nulla pariatur.  Duis aute irure dolor in reprehenderit in voluptate velit.
+        </p>
+  </section>
+
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+        <div class="stars-gallery">
+          <a href="person.jpeg" class="big">
+            <img
+              src="person.jpeg"
+              alt="Anthony Joshua"
+              title="AJ"
+            />
+          </a>
+  
+          <a href="person2.jpg" class="big">
+            <img
+              src="person2.jpeg"
+              alt="Tyson Fury"
+              title="Gypsy King"
+            />
+          </a>
+  
+          <a href="person3.jpeg" class="big">
+            <img
+              src="person3.jpeg"
+              alt="Iron Mike"
+              title="Iron Mike"
+            />
+          </a>
+  
+          <a href="person4.jpg" class="big">
+            <img
+              src="person4.jpg"
+              alt="Mohammed Ali"
+              title="The Greatest"
+            />
+          </a>
+  
+          <a href="person5.jpg" class="big"
+            ><img
+              src="person5.jpg"
+              alt="Deontay Wilder"
+              title="Bronze Bomber"
+            />
+          </a>
+  
+          <a href="person6.jpeg" class="big">
+            <img
+              src="person6.jpeg"
+              alt="George Foreman"
+              title="Big George Foreman"
+            />
+          </a>
+        </div>
+  </section>
+
+
+    <!-- Jab TV Stakeholders -->
+
+    <section class="people" id="stakeholders">
+        <div class="stakeholders">
+          <div class="persons">
+            <div class="person-1">
+              <img src="assets/images/john.jpg" alt="John Doe" />
+              <p class="name">John Doe</p>
+              <p class="role">Founder</p>
+            </div>
+            <div class="person-2">
+              <img src="assets/images/jane.jpg" alt="Jane Doe" />
+              <p class="name">Jane Doe</p>
+              <p class="role">MD</p>
+            </div>
+            <div class="person-3">
+              <img src="assets/images/jnr.jpg" alt="John Doe Jnr" />
+              <p class="name">John Doe JNR</p>
+              <p class="role">Head Analyst</p>
+            </div>
+          </div>
+        </div>
+  </section>
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+        <h3>Subscribe to our newsletter for updates</h3>
+        <form action="#">
+          <input
+            type="email"
+            name="email"
+            id="email-sub"
+            class="email-sub"
+            required
+          />
+          <input
+            type="submit"
+            value="Subscribe"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+  </section>
+
+
+    <!-- Social icons -->
+
+    <section class="social">
+        <h3>Connect with us on Social Media</h3>
+        <div class="socicons">
+          <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+          <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+          <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+        </div>
+  </section>
+
+    <!-- Scroll to top button -->
+
+<footer>&copy;2020. All Rights Reserved</footer>
+
+<i class="scroll-up" id="scroll-up"
+     ><img
+       src="up-arrow.png"
+       class="socicon up-arrow"
+       alt="up-arrow"
+/></i>
+    <!-- Web page script -->
+    <script src="app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      // Simple lightbox initializer
+    </script>
+    <script>
+        var lightbox = new SimpleLightbox(".stars-gallery a");
+   </script>
+
+  </body>
+</html>
